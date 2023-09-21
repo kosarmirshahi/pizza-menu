@@ -1,0 +1,12 @@
+.location {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e86a12;
+  background-color: #ffddc5;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
