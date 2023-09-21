@@ -1,19 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import "./Pizza.css";
-import peperoni from "../../images/peperoni.svg";
-function Pizza() {
+function Pizza(props) {
   return (
     <div className="pizza">
       <div>
-        <img src={peperoni} alt="pizza" className="pizzaImg" />
+        <img src={props.src} alt="pizza" className="pizzaImg" />
       </div>
       <div className="text">
-        <h4 className="pizzaName">Classic Pepporoni</h4>
-        <p className="Contents">
-          Cheese, hungarian pepper, paneer, capsicum and onion
-        </p>
-        <p className="price">12$</p>
+        <h4 className="pizzaName">{props.name}</h4>
+        <p className="Contents">{props.content}</p>
+        <p className="price">{props.price}</p>
       </div>
       <div>
         <button className="addBtn">+ ADD</button>

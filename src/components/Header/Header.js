@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import "./Header.css";
 import headerIcon from "../../images/header-icon.svg";
 function Header() {
